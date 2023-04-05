@@ -37,7 +37,24 @@ This is just an example in general. But this is how you are able to create
 and maintain your own repositories. 
 
 
+## Create a folder in a directory. 
+```shell 
+touch <folder name> 
+```
 
+## Change the directory into the folder name
+```shell 
+cd <folder name
+````
+
+
+## Then use `repo-add` <filename>.db.tar.gz
+
+This will initialize pacman to recognize a local repository in the system.
+
+```shell
+repo-add packages.db.tar.gz
+```
 
 ## Include the pacman.conf
 
