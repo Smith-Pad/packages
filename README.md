@@ -38,6 +38,10 @@ and maintain your own repositories.
 
 
 
+
+## Include the pacman.conf
+
+### What does it mean? 
 `name of the repository` = This the exact name that you added in the folder that you created 
 					       from repo-add. 
 
