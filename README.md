@@ -29,8 +29,9 @@ or arch based distro, then it will install/upgrade packages offline, which makes
 
 - Smith-Pad-OS or arch based distributions
 - repoadd
-- repoctl 
+- repoctl    
 - pacman 
+- makepkg
 
 
 # Steps to create your own repository
