@@ -28,7 +28,8 @@ or arch based distro, then it will install/upgrade packages offline, which makes
 # Dependencies: 
 
 - Smith-Pad-OS or arch based distributions
-- repoadd 
+- repoadd
+- repoctl 
 - pacman 
 
 
