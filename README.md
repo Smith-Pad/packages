@@ -32,6 +32,7 @@ or arch based distro, then it will install/upgrade packages offline, which makes
 - repoctl    
 - pacman 
 - makepkg
+- fakeroot
 
 
 # Steps to create your own repository
