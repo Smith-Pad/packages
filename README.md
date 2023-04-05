@@ -30,3 +30,19 @@ or arch based distro, then it will install/upgrade packages offline, which makes
 - Smith-Pad-OS or arch based distributions
 - repoadd 
 - pacman 
+
+
+# Steps to create your own repository
+This is just an example in general. But this is how you are able to create
+and maintain your own repositories. 
+
+
+
+`name of the repository` = This the exact name that you added in the folder that you created 
+					       from repo-add. 
+
+```shell
+[name of the repository here]
+SigLevel = Optional TrustAll
+Server = file:///home/<username>/packages
+```
