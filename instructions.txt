@@ -1,0 +1,7 @@
+------------------
+Instructions
+------------------
+
+
+
+repo-add packages.db <package name>.pkg.tar.xz
