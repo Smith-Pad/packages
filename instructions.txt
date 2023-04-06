@@ -5,3 +5,5 @@ Instructions
 
 
 repo-add packages.db <package name>.pkg.tar.xz
+
+repo-add packages.db <folder-name>/<package name>.pkg.tar.xz
