@@ -1,0 +1,58 @@
+# This is an example PKGBUILD file. Use this as a start to creating your own,
+# and remove these comments. For more information, see 'man PKGBUILD'.
+
+
+# Maintainer: senal.bulumulle@gmail.com <senalbulumulle>
+pkgname=Package-Build-Testing-Example
+pkgver=0.0.0
+pkgrel=1
+epoch=
+pkgdesc="This package is completely bare and it is used for testing purposes."
+arch=("x86_64")
+url="https://github.com/Smith-Pad/Smith-Pad-OS-Packages"
+license=("custom")
+groups=()
+depends=()
+makedepends=()
+checkdepends=()
+optdepends=()
+provides=()
+conflicts=()
+replaces=()
+backup=()
+options=()
+install=
+changelog=
+source=()
+noextract=()
+md5sums=()
+validpgpkeys=()
+
+pkgver() {
+	printf "%s" "$pkgver"
+}
+
+prepare() {
+	#cd "$pkgname-$pkgver"
+	#patch -p1 -i "$srcdir/$pkgname-$pkgver.patch"
+	return 0
+}
+
+build() {
+	#cd "$pkgname-$pkgver"
+	#./configure --prefix=/usr
+	#make
+	return 0
+}
+
+check() {
+	#cd "Package-Build-Testing-Example"
+	#make -k check
+	return 0
+}
+
+package() {
+	#cd "$pkgname-$pkgver"
+	#make DESTDIR="$pkgdir/" install
+	return 0
+}
