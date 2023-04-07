@@ -2,10 +2,10 @@
 # using fakeroot version 1.31
 pkgname = Package-Build-Testing-Example
 pkgbase = Package-Build-Testing-Example
-pkgver = 0.0.0-2
+pkgver = 0.0.0-3
 pkgdesc = This package is completely bare and it is used for testing purposes.
 url = https://github.com/Smith-Pad/Smith-Pad-OS-Packages
-builddate = 1680888463
+builddate = 1680890509
 packager = Unknown Packager
 size = 0
 arch = x86_64
