@@ -67,6 +67,6 @@ repo-add packages.db.tar.gz
 
 ```shell
 [name of the repository here]
-SigLevel = Optional TrustAll
-Server = file:///home/<username>/packages
+SigLevel = Never
+Server = http://localhost:8080
 ```
