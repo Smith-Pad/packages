@@ -1,0 +1,8 @@
+1[Unit]
+Description = Allows the ability to enable Smith-Pad's FAST Repository for Pacman 
+
+[Service]
+ExecStart=/bin/bash /usr/sbin/fast_repository.sh
+
+[Install]
+WantedBy=multi-user.target
