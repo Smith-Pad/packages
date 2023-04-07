@@ -1,1 +1,1 @@
-darkhttpd /usr/share/FAST --port 
+darkhttpd /var/FAST --port 80 
