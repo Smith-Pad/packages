@@ -68,5 +68,5 @@ repo-add packages.db.tar.gz
 ```shell
 [name of the repository here]
 SigLevel = Never
-Server = http://localhost:8080
+Server = file://usr/share/FAST
 ```
